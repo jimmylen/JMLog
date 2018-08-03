@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "JMLog", "JMLog/*.{h,m}"
   s.exclude_files = "JMLog/*.h"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "JMLog/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
