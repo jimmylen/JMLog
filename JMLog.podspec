@@ -64,8 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  # s.platform     = :ios
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "8.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JMLog", "JMLog/**/*.{h,m}"
-  s.exclude_files = "JMLog/**/*.h"
+  s.source_files  = "JMLog", "JMLog/*.{h,m}"
+  s.exclude_files = "JMLog/*.h"
 
   # s.public_header_files = "Classes/**/*.h"
 
